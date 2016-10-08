@@ -24,12 +24,7 @@
 		"tracy/tracy": "^2.3",
 		"honzapospi/rest-server": "^1.1.1"
 	},
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "git://github.com/honzapospi/rest-server.git"
-		}
-	],
+	"minimum-stability": "dev",
 	"require-dev": {
 		"nette/tester": "^1.6"
 	}
