@@ -1,0 +1,36 @@
+{
+	"name": "honzapospi/rest-project",
+	"description": "Nette: Standard Web Project",
+	"type": "project",
+	"license": ["MIT", "BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"authors": [
+		{
+			"name": "Jan Pospíšil",
+			"homepage": "http://www.jan-pospisil.cz/"
+		}
+	],
+	"require": {
+		"php": ">= 5.3",
+		"nette/application": "^2.3.6",
+		"nette/bootstrap": "^2.3.0",
+		"nette/caching": "^2.3",
+		"nette/database": "^2.3",
+		"nette/di": "^2.3",
+		"nette/finder": "^2.3",
+		"nette/http": "^2.3",
+		"nette/mail": "^2.3",
+		"nette/robot-loader": "^2.3",
+		"nette/utils": "^2.3",
+		"tracy/tracy": "^2.3",
+		"honzapospi/rest-server": "^1.1.1"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git://github.com/honzapospi/rest-server.git"
+		}
+	],
+	"require-dev": {
+		"nette/tester": "^1.6"
+	}
+}
