@@ -22,7 +22,7 @@
 		"nette/robot-loader": "^2.3",
 		"nette/utils": "^2.3",
 		"tracy/tracy": "^2.3",
-		"honzapospi/rest-server": "^1.1.2"
+		"honzapospi/rest-server": "^1.2"
 	},
 	"minimum-stability": "dev",
 	"require-dev": {
