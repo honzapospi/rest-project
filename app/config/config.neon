@@ -3,6 +3,8 @@
 
 parameters:
 
+extensions:
+	controllers: RestServer\ControllersExtension
 
 database:
 	dsn: 'mysql:host=127.0.0.1;dbname=test'
