@@ -4,14 +4,14 @@ namespace App\Controllers;
 
 use Nette;
 use RestServer\IController;
-use RestServer\IParametrs;
+use RestServer\IParameters;
 use RestServer\Response;
 
 
 class ArticleController extends Nette\Object implements IController
 {
 
-	public function run(IParametrs $parameters, Response $response) {
+	public function run(IParameters $parameters, Response $response) {
 		$response->data = array (
 			array (
 				'id' => 1,

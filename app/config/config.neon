@@ -24,4 +24,6 @@ services:
 	- Rest\RouteListFactory
 	- RestServer\IResponseFactory
 	- RestServer\JsonRenderer
+	- RestServer\ParametersAccessor
+controllers:
 	- App\Controllers\ArticleController
