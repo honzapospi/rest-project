@@ -21,7 +21,7 @@
 		"tracy/tracy": "^2.3",
 		"honzapospi/rest-server": "^2.3"
 	},
-	"minimum-stability": "dev",
+	"minimum-stability": "stable",
 	"require-dev": {
 		"nette/tester": "^1.6"
 	}
