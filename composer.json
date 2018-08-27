@@ -1,6 +1,6 @@
 {
 	"name": "honzapospi/rest-project",
-	"description": "Nette: Standard Web Project",
+	"description": "Rest server",
 	"type": "project",
 	"license": ["MIT", "BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
 	"authors": [
@@ -10,16 +10,16 @@
 		}
 	],
 	"require": {
-		"php": ">= 5.4",
-		"nette/bootstrap": "^2.3.0",
-		"nette/caching": "^2.3",
-		"nette/database": "^2.3",
-		"nette/di": "^2.3",
-		"nette/http": "^2.3",
-		"nette/robot-loader": "^2.3",
-		"nette/utils": "^2.3",
-		"tracy/tracy": "^2.3",
-		"honzapospi/rest-server": "^2.3"
+		"php": ">= 7.0",
+		"nette/bootstrap": "^2.4",
+		"nette/caching": "^2.4",
+		"nette/database": "^2.4",
+		"nette/di": "^2.4",
+		"nette/http": "^2.4",
+		"nette/robot-loader": "^2.4",
+		"nette/utils": "^2.4",
+		"tracy/tracy": "^2.4",
+		"honzapospi/rest-server": "^2.4"
 	},
 	"minimum-stability": "stable",
 	"require-dev": {

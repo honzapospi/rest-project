@@ -5,6 +5,7 @@
  */
 
 namespace Rest;
+use Nette\SmartObject;
 use RestServer\IRouteListFactory;
 use RestServer\Route;
 use RestServer\RouteList;
@@ -14,7 +15,8 @@ use RestServer\RouteList;
  * @author Jan Pospisil
  */
 
-class RouteListFactory extends \Nette\Object implements IRouteListFactory {
+class RouteListFactory implements IRouteListFactory {
+	use SmartObject;
 
 	public function create() {
 		$routeList = new RouteList();

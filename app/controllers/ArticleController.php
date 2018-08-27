@@ -8,8 +8,8 @@ use RestServer\IParameters;
 use RestServer\Response;
 
 
-class ArticleController extends Nette\Object implements IController
-{
+class ArticleController implements IController {
+	use Nette\SmartObject;
 
 	public function run(IParameters $parameters, Response $response) {
 		$response->data = array (
