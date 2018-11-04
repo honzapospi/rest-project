@@ -2,7 +2,7 @@
 	"name": "honzapospi/rest-project",
 	"description": "Rest server",
 	"type": "project",
-	"license": ["MIT", "BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
 	"authors": [
 		{
 			"name": "Jan Pospíšil",
@@ -10,7 +10,7 @@
 		}
 	],
 	"require": {
-		"php": ">= 7.0",
+		"php": ">= 7.1",
 		"nette/bootstrap": "^2.4",
 		"nette/caching": "^2.4",
 		"nette/database": "^2.4",
@@ -19,10 +19,10 @@
 		"nette/robot-loader": "^2.4",
 		"nette/utils": "^2.4",
 		"tracy/tracy": "^2.4",
-		"honzapospi/rest-server": "^2.4"
+		"honzapospi/rest-server": "^2.4.1"
 	},
 	"minimum-stability": "stable",
 	"require-dev": {
-		"nette/tester": "^1.6"
+		"nette/tester": "^2.0"
 	}
 }

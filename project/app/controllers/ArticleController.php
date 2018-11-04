@@ -11,7 +11,7 @@ use RestServer\Response;
 class ArticleController implements IController {
 	use Nette\SmartObject;
 
-	public function run(IParameters $parameters, Response $response) {
+	public function run(IParameters $parameters, Response $response):void {
 		$response->data = array (
 			array (
 				'id' => 1,

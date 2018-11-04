@@ -5,9 +5,9 @@
  */
 
 namespace Rest;
+use App\Controllers\ArticleController;
 use Nette\SmartObject;
 use RestServer\IRouteListFactory;
-use RestServer\Route;
 use RestServer\RouteList;
 
 /**
@@ -18,9 +18,9 @@ use RestServer\RouteList;
 class RouteListFactory implements IRouteListFactory {
 	use SmartObject;
 
-	public function create() {
+	public function create():RouteList {
 		$routeList = new RouteList();
-		$routeList->add(new Route('/articles', Route::GET, 'App\Controllers\ArticleController'));
+		$routeList->get('/articles', ArticleController::class);
 		return $routeList;
 	}
 }
